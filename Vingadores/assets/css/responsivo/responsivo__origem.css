@@ -1,0 +1,50 @@
+@media only screen and (max-device-width: 900px) {
+    .textoDestaque {
+        font-size: 40px;
+    }
+
+    .principal__imagem {
+        display: none;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .texto {
+        font-size: 35px;
+    }
+
+    .origem {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .origem .titulo {
+        position: relative;
+        z-index: 2;
+    }
+
+    .origem .texto {
+        padding: 0px 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .origem:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.3;
+        background-image: url('../../img/comic1.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+}

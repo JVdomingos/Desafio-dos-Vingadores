@@ -1,0 +1,133 @@
+.textoDestaque {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 8rem 0;
+    font-weight: bold;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.decoracao {
+    text-decoration: underline;
+}
+
+.origem {
+    display: flex;
+    padding: 20px 0px;
+    
+}
+
+.origem__imagem {
+    padding: 0px 20px;
+}
+
+.titulo {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+}
+
+.quemE {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.quemE__container {
+    padding-left: 20px;
+}
+
+.quemE__imagem {
+    width: 28%;
+    padding: 0px 20px;
+}
+
+.suaVolta {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.suaVolta__container {
+    padding-right: 20px;
+}
+
+.suaVolta__imagem {
+    padding: 0px 20px;
+}
+
+.morte {
+    padding: 20px 0px;
+    background-image: url(../img/morte_capitao_america.jpg);
+}
+
+.morte .titulo {
+    text-align: center;
+    color: red;
+}
+
+.morte .texto {
+    padding: 0px 20px;
+    color: red;
+}
+
+.capitoes {
+    padding: 20px 0px;
+}
+
+.capitoes .titulo {
+    text-align: center;
+}
+
+.capitoes .textoDestaque {
+    padding: 20px 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0px 20px; */
+}
+
+.card {
+    width: 18rem;
+    width: 20%;
+    height: 500px;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+
+.card__imagem {
+    max-height: 60%;
+    height: auto; 
+}
+
+.card-body {
+    max-height: 40%;
+    height: auto;
+}
+
+.card-title {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.botao {
+    background-color: rgb(12, 16, 240);
+    font-weight: bold;
+}
+
+.botao:hover {
+    /* scale: */
+    text-decoration: underline;
+}
+

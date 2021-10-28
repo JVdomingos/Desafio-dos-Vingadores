@@ -1,0 +1,33 @@
+@media only screen and (max-device-width: 900px) {
+    .suaVolta {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .suaVolta .titulo {
+        position: relative;
+        z-index: 2;
+    }
+
+    .suaVolta .texto {
+        padding: 0px 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .suaVolta:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.6;
+        background-image: url('../../img/sua_volta.jpg');
+        background-repeat: no-repeat;
+        background-position: 75% 0;
+        background-size: cover;
+    }
+}

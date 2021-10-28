@@ -1,0 +1,22 @@
+/* .logo {
+    
+} */
+
+.cabecalho__imagemCarrossel {
+    height: 600px;
+    object-fit: cover;
+}
+
+.cabecalho__imagemCarrossel-1 {
+    object-position: 0 30%;
+}
+
+.cabecalho__imagemCarrossel-2 {
+    object-position: 0 50%;
+}
+
+.tituloCarrossel {
+    /* font-family: 'Pacifico', cursive; */
+    font-size: 7rem;
+    color: rgb(12, 16, 240);
+}

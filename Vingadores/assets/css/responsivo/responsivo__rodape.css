@@ -1,0 +1,9 @@
+@media only screen and (max-device-width: 900px) {
+    .rodape__texto {
+        font-size: 35px;
+    }
+
+    .rodape__imagem {
+        width: 20%;
+    }
+}

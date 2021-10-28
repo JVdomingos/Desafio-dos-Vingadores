@@ -1,0 +1,7 @@
+@media only screen and (max-device-width: 900px) {
+    .quemE {
+        background-image: url(../../img/steve_rogers.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

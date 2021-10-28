@@ -1,0 +1,6 @@
+@media only screen and (max-device-width: 900px) {
+    .morte {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
